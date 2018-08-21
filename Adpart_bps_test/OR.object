@@ -1,0 +1,54 @@
+<Root type="OR" ref="Adpart_bps_test">
+  <Page title="Fasdec CRM Solutions" ref="Fasdec">
+    <ObjectGroup ref="username">
+      <Object frame="" ref="username">
+        <Property value="username" ref="name" pref="1"/>
+        <Property value="text1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='username']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/form/p/label/span/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#text1" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="password">
+      <Object frame="" ref="password">
+        <Property value="password" ref="name" pref="1"/>
+        <Property value="password1" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@name='password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/form/p[2]/span/label/input" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#password1" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/form/p[3]/button)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="button[type=&quot;submit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="FasDec CRM Solutions" ref="FasDec1">
+    <ObjectGroup ref="logout">
+      <Object frame="" ref="logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body > #main > #header > div.welcome > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

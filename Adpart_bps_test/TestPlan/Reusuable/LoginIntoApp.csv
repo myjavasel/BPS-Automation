@@ -1,0 +1,7 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@http://opt.fasdec.org/opt/,,
+2,username,"Click the [<Object>] ",Click,,,Fasdec
+3,username,Enter the value [<Data>] in the Field [<Object>],Set,TestData0:un,,Fasdec
+4,password,"Click the [<Object>] ",Click,,,Fasdec
+5,password,Enter the Decrypted value [<Data>] in the Field [<Object>],setEncrypted,TestData0:pw,,Fasdec
+6,Login,"Click the [<Object>] ",Click,,,Fasdec

@@ -1,0 +1,7 @@
+<Root ref="Adpart_bps_test" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Login">
+<TestCase exeType="Executable" ref="LoginIntoApp"/>
+</Scenario>
+</Folder>
+</Root>
