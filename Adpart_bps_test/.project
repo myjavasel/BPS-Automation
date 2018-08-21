@@ -31,12 +31,6 @@
     "tags" : [ ]
   }, {
     "type" : "scenario",
-    "name" : "Invalid login",
-    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
-    "attributes" : [ ],
-    "tags" : [ ]
-  }, {
-    "type" : "scenario",
     "name" : "Reusuable",
     "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
     "attributes" : [ ],
@@ -55,17 +49,6 @@
     "tags" : [ ]
   } ],
   "data" : [ {
-    "id" : "Invalid login#NewTestCase",
-    "name" : "NewTestCase",
-    "tags" : [ ],
-    "attributes" : [ {
-      "name" : "type",
-      "value" : "testcase"
-    }, {
-      "name" : "scenario",
-      "value" : "Invalid login"
-    } ]
-  }, {
     "id" : "Reusuable#LoginIntoApp",
     "name" : "LoginIntoApp",
     "tags" : [ ],
@@ -75,6 +58,17 @@
     }, {
       "name" : "scenario",
       "value" : "Reusuable"
+    } ]
+  }, {
+    "id" : "ValidLogin#NewTestCase",
+    "name" : "NewTestCase",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ValidLogin"
     } ]
   } ]
 }
