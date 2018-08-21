@@ -1,0 +1,7 @@
+#Tue Aug 21 07:05:18 GMT-05:00 2018
+db.connection.string=jdbc\:<Database>\://<Host>\:<Port>/<Database name>
+db.user=
+db.password=
+db.driver=
+db.commit=True
+db.timeout=30
