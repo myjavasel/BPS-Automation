@@ -29,6 +29,46 @@
     "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
     "attributes" : [ ],
     "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Reusuable",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "ValidLogin",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Login",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
   } ],
-  "data" : [ ]
+  "data" : [ {
+    "id" : "Reusuable#LoginIntoApp",
+    "name" : "LoginIntoApp",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "Reusuable"
+    } ]
+  }, {
+    "id" : "ValidLogin#NewTestCase",
+    "name" : "NewTestCase",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "testcase"
+    }, {
+      "name" : "scenario",
+      "value" : "ValidLogin"
+    } ]
+  } ]
 }
