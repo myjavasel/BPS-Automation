@@ -51,4 +51,32 @@
       </Object>
     </ObjectGroup>
   </Page>
+  <Page title="Google" ref="Google">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="lst-ib" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[3]/form/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="gsfi lst-d-f" ref="class" pref="6"/>
+        <Property value="#lst-ib" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="sachin - Google Search" ref="sachin">
+    <ObjectGroup ref="Sachin Tendulkar - Wikipedia">
+      <Object frame="" ref="Sachin Tendulkar - Wikipedia">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Sachin Tendulkar - Wikipedia" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Sachin Tendulkar - Wikipedia')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[6]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/h3/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > #gsr > #main > #cnt > div.mw > #rcnt > div.col > #center_col > #res > #search > div > #ires > #rso > div.bkWMgd > div.g > div > div.rc > h3.r > a" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
 </Root>
