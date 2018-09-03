@@ -51,6 +51,48 @@
       </Object>
     </ObjectGroup>
   </Page>
+  <Page title="Selenium - Web Browser Automation" ref="Selenium">
+    <ObjectGroup ref="Projects">
+      <Object frame="" ref="Projects">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Projects" ref="link_text" pref="3"/>
+        <Property value="//a[@title='Selenium Projects']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/ul/li[5]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Selenium Projects&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Selenium Projects" ref="Selenium1">
+    <ObjectGroup ref="Download">
+      <Object frame="" ref="Download">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Download" ref="link_text" pref="3"/>
+        <Property value="//a[@title='Get Selenium']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/ul/li[4]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Get Selenium&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Downloads" ref="Downloads">
+    <ObjectGroup ref="Documentation">
+      <Object frame="" ref="Documentation">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Documentation" ref="link_text" pref="3"/>
+        <Property value="//a[@title='Technical references and guides']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/ul/li[3]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Technical references and guides&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
   <Page title="Google" ref="Google">
     <ObjectGroup ref="Search">
       <Object frame="" ref="Search">
@@ -75,8 +117,7 @@
         <Property value="(/html/body/div[6]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/h3/a)[1]" ref="xpath" pref="5"/>
         <Property value="" ref="class" pref="6"/>
         <Property value="html > #gsr > #main > #cnt > div.mw > #rcnt > div.col > #center_col > #res > #search > div > #ires > #rso > div.bkWMgd > div.g > div > div.rc > h3.r > a" ref="css" pref="7"/>
-        <Property value="a" ref="type" pref="8"/>
-      </Object>
+		</Object>
     </ObjectGroup>
   </Page>
 </Root>
